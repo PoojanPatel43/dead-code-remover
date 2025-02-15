@@ -1,6 +1,6 @@
 # Dead Code Remover 🔍✂️
 
-A Java-based tool to identify and remove dead/unused methods from JAR files using bytecode analysis with Apache BCEL.
+A Java-based tool to identify and remove dead/unused methods from JAR files using bytecode analysis with [Apache BCEL](https://commons.apache.org/proper/commons-bcel/).
 
 ## Features ✨
 
@@ -128,8 +128,8 @@ Contributions welcome! Please:
 
 ## License 📄
 
-MIT License - See LICENSE
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - See [LICENSE](LICENSE) file for details.
 
 ---
 
-Made with ❤️ using Apache BCEL
+Made with ❤️ using [Apache BCEL](https://commons.apache.org/proper/commons-bcel/)
