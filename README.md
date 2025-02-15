@@ -1,5 +1,3 @@
-markdown
-Copy
 # Dead Code Remover 🔍✂️
 
 A Java-based tool to identify and remove dead/unused methods from JAR files using bytecode analysis with Apache BCEL.
@@ -7,11 +5,15 @@ A Java-based tool to identify and remove dead/unused methods from JAR files usin
 [![Maven](https://img.shields.io/badge/apache-maven-C71A36?style=flat&logo=apachemaven)](https://maven.apache.org/)
 [![Java](https://img.shields.io/badge/Java-21-007396?style=flat&logo=openjdk)](https://openjdk.org/projects/jdk/21/)
 
+---
+
 ## Features ✨
 - Identifies unused methods through bytecode analysis
 - Preserves entry points (`main` methods) automatically
 - Processes entire JAR files while maintaining structure
 - Command-line interface for easy integration
+
+---
 
 ## Installation 📦
 
@@ -24,7 +26,7 @@ Build with Maven:
 bash
 Copy
 mvn clean package
-Built JAR will be in target/dead-code-remover-1.0.0.jar
+Built JAR will be in target/dead-code-remover-1.0.0.jar.
 
 Usage 🛠️
 Basic Command
