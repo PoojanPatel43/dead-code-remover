@@ -1,4 +1,4 @@
-# Dead Code Remover 🔍✂️
+# Dead Code Remover 
 
 A Java-based tool to identify and remove dead/unused methods from JAR files using bytecode analysis with [Apache BCEL](https://commons.apache.org/proper/commons-bcel/).
 
@@ -9,7 +9,7 @@ A Java-based tool to identify and remove dead/unused methods from JAR files usin
 - Processes entire JAR files while maintaining structure
 - Command-line interface for easy integration
 
-## Installation 📦
+## Installation 
 
 1. Clone the repository:
 ```bash
@@ -24,7 +24,7 @@ mvn clean package
 
 The built JAR will be in `target/dead-code-remover-1.0.0.jar`.
 
-## Usage 🛠️
+## Usage 
 
 ### Basic Command
 ```bash
@@ -52,7 +52,7 @@ java -cp target/dead-code-remover-1.0.0.jar com.example.deadcode.util.TestUtils 
 java -cp target/dead-code-remover-1.0.0.jar com.example.deadcode.util.TestUtils verify test-output.jar usedMethod
 ```
 
-## Testing 🧪
+## Testing 
 
 Run unit tests with:
 ```bash
@@ -71,7 +71,7 @@ public class TestClass {
 }
 ```
 
-## How It Works ⚙️
+## How It Works 
 
 ### Bytecode Analysis (BytecodeAnalyzer.java)
 - Scans method invocations using BCEL
